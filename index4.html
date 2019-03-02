@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AL TREILEA FORMULAR</title>
+    </head>
+
+    <body>
+        <h2>My feedback form</h2>
+        <ul>
+            <li>
+                Name:<input type="text"><br></li>
+            <li>
+                Email:<input type="email"></li>
+            <li>
+                Password:<input type="password"></li>
+            <li>
+                Please check all the emotions that apply to you:
+                <ul type="disc">
+                    <li>Angry<input type="checkbox"></li>
+                    <li>Sad<input type="checkbox"></li>
+                    <li>Happy<input type="checkbox"></li>
+                    <li>Ambivalent<input type="checkbox"></li>
+                </ul>
+            </li>
+            <li>
+                How satisfied were you with our service?
+                <ul type="disc">
+                    <li>
+                        <label for="satisfaction"></label>
+                        <label for="Very satisfied">Very satisfied</label>
+                        <input type="radio" name="satisfaction">
+                    </li>
+                    <li>
+                        <label for="Satisfied">Satisfied</label>
+                        <input type="radio" name="satisfaction">
+                    </li>
+                    <li>
+                        <label for="Didn't care">Didn't care</label>
+                        <input type="radio" name="satisfaction">
+                    </li>
+                    <li>
+                        <label for="Dissatisfied">Dissatisfied</label>
+                        <input type="radio" name="satisfaction">
+                    </li>
+                    <li>
+                        <label for="Very dissatisfied">Very dissatisfied</label>
+                        <input type="radio" name="satisfaction">
+                    </li>
+                </ul>       
+            </li>
+            <li>
+                Further comments:
+                <input type="text" style="height:50px;width:300px">
+            </li>
+            <li>
+                Bio photo:
+                <input type="file">
+            </li>
+            <li>
+                Location visited:
+                <select name="location">
+                    <option value="select location">Select location</option>
+                    <option value="location A">location A</option>
+                    <option value="location B">location B</option>
+                    <option value="location C">location C</option>
+                    <option value="location D">location D</option>
+                </select>
+            </li>
+<br><br>
+            <li>
+                <input type="submit" value="Submit">
+            </li>
+
+        </ul>
+    </body>
+</html>
